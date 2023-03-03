@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5EAEA"
+    >
+
+
+    <ImageView
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+        app:srcCompat="@drawable/unidades"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al conversor de unidades"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿A qué unidad te deseas dirigir?"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnlong"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Longitud"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/btnpeso"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Peso"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/btntemperatura"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Temperatura"/>
+    </LinearLayout>
+
+</LinearLayout>
